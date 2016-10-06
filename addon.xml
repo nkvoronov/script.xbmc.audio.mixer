@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
-    version="3.0.1.002"
+    version="3.0.0.003"
     provider-name="Team XBMC, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
