@@ -160,7 +160,7 @@ class GUI( xbmcgui.WindowXMLDialog ):
         if ( self.controlId >= 1000 ):
           self.slider_onfocus(0)
           
-      if ( action.getButtonCode() in CANCEL_DIALOG ):
+      if ( action in CANCEL_DIALOG ):
         self.log("Exit")
         self.exit_script()
 

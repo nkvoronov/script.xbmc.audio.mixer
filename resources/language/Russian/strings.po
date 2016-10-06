@@ -19,8 +19,8 @@ msgstr ""
 
 msgctxt "#30001"
 msgid "Audio Mixer"
-msgstr "Аудио Микшер"
+msgstr "РђСѓРґРёРѕ РњРёРєС€РµСЂ"
 
 msgctxt "#30010"
 msgid "Mute"
-msgstr "Выкл."
+msgstr "Р’С‹РєР»."
