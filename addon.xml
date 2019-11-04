@@ -9,10 +9,12 @@
     <extension point="xbmc.python.script" library="default.py" />
     <extension point="xbmc.addon.metadata">
         <platform>osx linux</platform>
-        <summary lang="en">Kodi Audio Mixer</summary>
-        <summary lang="ru">Kodi Аудио Микшер</summary>
-        <description lang="en">Kodi Audio Mixer</description>
-        <description lang="ru">Kodi Аудио Микшер</description>
+        <summary lang="en_GB">Kodi Audio Mixer</summary>
+        <summary lang="ru_RU">Kodi Аудио Микшер</summary>
+		<summary lang="uk_UA">Kodi Аудіо Мікшер</summary>
+        <description lang="en_GB">Kodi Audio Mixer</description>
+        <description lang="ru_RU">Kodi Аудио Микшер</description>
+		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum></forum>
         <website></website>
