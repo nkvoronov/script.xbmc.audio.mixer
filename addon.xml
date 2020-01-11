@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.xbmc.audio.mixer"
-    name="Kodi Audio Mixer"
-    version="4.0.2.006"
-    provider-name="Team Kodi, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>osx linux</platform>
-        <summary lang="en_GB">Kodi Audio Mixer</summary>
-        <summary lang="ru_RU">Kodi Аудио Микшер</summary>
+	name="Kodi Audio Mixer"
+	version="4.0.2.007"
+	provider-name="Team Kodi, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>osx linux</platform>
+		<summary lang="en_GB">Kodi Audio Mixer</summary>
+		<summary lang="ru_RU">Kodi Аудио Микшер</summary>
 		<summary lang="uk_UA">Kodi Аудіо Мікшер</summary>
-        <description lang="en_GB">Kodi Audio Mixer</description>
-        <description lang="ru_RU">Kodi Аудио Микшер</description>
+		<description lang="en_GB">Kodi Audio Mixer</description>
+		<description lang="ru_RU">Kodi Аудио Микшер</description>
 		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum></forum>
-        <website></website>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
-    </extension>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
