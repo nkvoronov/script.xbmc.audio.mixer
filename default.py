@@ -22,6 +22,7 @@
 import sys
 import os
 import xbmc
+import xbmcvfs
 import xbmcaddon
 
 
@@ -31,8 +32,8 @@ ADDONID    = ADDON.getAddonInfo('id')
 LANGUAGE   = ADDON.getLocalizedString
 VERSION    = ADDON.getAddonInfo("version")
 CWD        = ADDON.getAddonInfo('path')
-PROFILE    = xbmc.translatePath( ADDON.getAddonInfo('profile') ).decode("utf-8")
-RESOURCE   = xbmc.translatePath( os.path.join( CWD, 'resources', 'lib' ) ).decode("utf-8")
+PROFILE    = xbmcvfs.translatePath( ADDON.getAddonInfo('profile') ).decode("utf-8")
+RESOURCE   = xbmcvfs.translatePath( os.path.join( CWD, 'resources', 'lib' ) ).decode("utf-8")
 
 sys.path.append (RESOURCE)
 
